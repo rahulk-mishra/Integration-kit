@@ -2,7 +2,7 @@ DEFAULT_TIMEOUT = 5 #seconds
 API_VERSION = "2025-05-01"
 DEFAULT_SSL_PROTOCOL = "TLSv1.2"
 PROJECT_VERSION = "2025-05-01"
-SDK_VERSION = 'PYTHON_KIT/' + PROJECT_VERSION
+KIT_VERSION = 'PYTHON_KIT/' + PROJECT_VERSION
 
 class Request():
     def __init__(self, merchant_id, base_url, auth, customer_id = None, timeout = DEFAULT_TIMEOUT, api_version = API_VERSION):
