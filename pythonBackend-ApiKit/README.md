@@ -18,8 +18,6 @@ This project is a Python-based backend using **Flask** that demonstrates how to 
 ## 🛠 Tech Stack
 
 - **Backend**: Python, Flask
-- **Others**: Ngrok (for public tunneling), Logging
-
 ---
 
 ## 📁 Project Structure
@@ -27,12 +25,7 @@ project-root/
 ├── index.py # Main Flask application
 ├── payment_handler.py # Juspay API integration logic
 ├── config.json # Merchant configuration
-├── templates/
+├── public/
 │ └── initatePaymentDataForm.html # to create order and initiate payment display page.
 | └── initateRefundDataForm.html  # to initate refund for given order.
-| └── client.py # contains all the basic auth and checks.
-| └── exception.py # contains exception class for API exception.
-| └── request.py # contains Request class contains all important parameter.
-| └── simpleLogger.py # contains logger class to create .log files and all
-├── requirements.txt # Python dependencies
 └── README.md # Project documentation
